@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:padding="8dp">
+
+    <Button
+        android:id="@+id/slotButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/text_view_description"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#834141"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#FDC4CD"/>
+</LinearLayout>

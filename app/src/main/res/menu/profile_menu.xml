@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_edit"
+        android:title="Edit Image"
+         />
+    <item
+        android:id="@+id/menu_delete"
+        android:title="Delete Image"
+        />
+    <item
+        android:id="@+id/menu_play_music"
+        android:title="Play Music"
+         />
+    <item
+        android:id="@+id/menu_stop_music"
+        android:title="Stop Music"
+        />
+    <item
+        android:id="@+id/menu_edit_profile"
+        android:title="Edit Profile"
+       />
+    <item
+        android:id="@+id/menu_edit_logout"
+        android:title="log out"
+        />
+</menu>

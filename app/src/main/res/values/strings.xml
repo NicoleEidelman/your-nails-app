@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyProject</string>
+    <!-- res/values/strings.xml -->
+
+        <string name="menu_icon_description">Profile options menu</string>
+        <string name="your_nails">Your Nails</string>
+    <string name="available_slots">Available Slots:</string>
+    <string name="cancel">Cancel up to 24 hours before or full charge applies</string>
+
+
+
+    <!-- Other string resources -->
+
+
+
+</resources>

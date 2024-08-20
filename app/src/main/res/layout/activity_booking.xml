@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:text="@string/your_nails"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textSize="30sp"
+        android:padding="16dp"
+        android:textStyle="bold"/>
+
+    <!-- Circular CardView containing CalendarView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/calendarCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="4dp"
+        android:background="@color/booking_card"
+        app:cardBackgroundColor="@color/booking_card">
+
+        <!-- Center the CalendarView -->
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:clipToPadding="false"
+            android:background="#D79191"
+            android:weekDayTextAppearance="@style/CustomWeekDayTextAppearance"
+            android:dateTextAppearance="@style/CalendarDateStyle"
+            android:focusedMonthDateColor="@color/weekdays"
+            android:selectedWeekBackgroundColor="@color/weekdays"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Available Slots Label -->
+    <TextView
+        android:id="@+id/availableSlotsLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendarCardView"
+        android:layout_marginTop="34dp"
+        android:text="@string/available_slots"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/weekdays" />
+
+    <!-- RecyclerView for Slots -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/slotRecyclerView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/availableSlotsLabel"
+        android:padding="16dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"/>
+
+    <!-- Cancellation Policy -->
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slotRecyclerView"
+        android:layout_above="@id/horizontalLine"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp"
+        android:text="@string/cancel"
+        android:textAlignment="center"
+        android:textColor="@color/weekdays"
+        android:textSize="17sp" />
+
+    <!-- Horizontal Line Above Icons -->
+    <View
+        android:id="@+id/horizontalLine"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/weekdays"
+        android:layout_above="@id/myProfileIcon"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Profile Icon -->
+    <ImageView
+        android:id="@+id/myProfileIcon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/menu_background_state"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_profile_state" />
+
+    <!-- Menu Icon -->
+    <ImageView
+        android:id="@+id/myMenuIcon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/menu_background_state"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/menu_icon_state" />
+
+</RelativeLayout>
