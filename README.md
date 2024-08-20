@@ -35,7 +35,13 @@ Screenshots
 Here are some screenshots of the application:
 
 Splash Screen
+
+
+
+
 ![Splash_Screen](https://github.com/user-attachments/assets/65ab4138-60b6-49af-9937-dec1fbe9c2fc)
+
+
 
 
 
