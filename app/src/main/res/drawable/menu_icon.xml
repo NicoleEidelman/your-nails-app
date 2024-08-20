@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Horizontal Lines -->
+    <path
+    android:strokeColor="#834141"
+    android:strokeWidth="1.5"
+    android:strokeLineJoin="round"
+    android:strokeLineCap="round"
+    android:pathData="M4 6H20M4 12H20 M4 18H20" /> <!-- Path data for three horizontal lines -->
+</vector>
