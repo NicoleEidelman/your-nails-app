@@ -37,31 +37,64 @@ Here are some screenshots of the application:
 Splash Screen
 ![Splash_Screen](https://github.com/user-attachments/assets/65ab4138-60b6-49af-9937-dec1fbe9c2fc)
 
+
+
 The loading screen users see upon launching the app.
 
 Profile Management
+
 ![ProfileManagement](https://github.com/user-attachments/assets/dcfe0da1-6236-40f7-89df-efd6658dc638)
+
+
 
 The profile screen where users can view and edit their details, manage appointments, and access additional features.
 
 Appointment Booking
+
+
 ![AppointmentBooking](https://github.com/user-attachments/assets/e74d1fdb-5be9-45a6-bb34-bcc43783b139)
+
+
+
 
 Users can select a date and time for their appointment from the available slots.
 
+
+
 Treatment Selection
+
+
 ![TreatmentSelection](https://github.com/user-attachments/assets/7e3cddd9-0bff-47ef-b0b4-359b885e99e9)
+
+
+
 
 Explore the different treatments offered by the salon, each with a detailed description.
 
+
+
 Main Profile View
+
+
+
 ![MainProfileView](https://github.com/user-attachments/assets/900aabe1-c93e-42f9-b2ea-8b0b8e67f97b)
+
+
+
 An overview of the user's profile, including their upcoming appointments.
 
 Login Screen
+
+
+
 ![LoginScreen](https://github.com/user-attachments/assets/e0a3abe3-d578-428e-a7c9-0ab2e7326285)
 
+
+
+
 The login screen, where users can access the app by signing in securely.
+
+
 
 Getting Started
 Prerequisites
@@ -77,5 +110,3 @@ Connect your Firebase project:
 Follow Firebase setup instructions to integrate your Firebase project with the app.
 Run the app on an emulator or physical device.
 
-Contributing
-Contributions are welcome! If you would like to contribute, please fork the repository and create a pull request. Ensure that your code is well-documented and adheres to the project's coding standards.
